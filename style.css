@@ -11,6 +11,9 @@ html{
     justify-content: center;
 }
 
+body{
+    margin-left: 50px;
+}
 
 
 header{
@@ -71,6 +74,10 @@ header{
     margin: 0;
 }
 
+.bottom-image{
+    width: 800px;
+}
+
 @media (min-width: 500px) and (max-width: 1150px) {
     .top-image{
         width: 460px;
@@ -94,8 +101,21 @@ header{
         top: 100px;
         min-width: 400px;
     }
-    header{
-        
+    
+    .bottom-image{
+        width: 500px;
+    }
+
+}
+
+@media (min-width: 870px){
+    footer{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
     }
 }
 
@@ -148,4 +168,7 @@ header{
         margin-top: 100px;
     }
 
+    .bottom-image{
+        max-width: 300px;
+    }
 }
